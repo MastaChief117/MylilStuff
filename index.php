@@ -3,10 +3,10 @@ error_reporting(0);
 mysqli_report(MYSQLI_REPORT_OFF);
 
 // === CONFIGURATION ===
-$db_host = "sql212.byetcluster.com"; // Check your InfinityFree Account Details for the actual host
-$db_name = "YOUR_GAMER_GD_DATABASE_NAME";
-$db_user = "YOUR_GAMER_GD_DATABASE_USER";
-$db_pass = "YOUR_DATABASE_PASSWORD";
+$db_host = "sql212.ezyro.com"; // Check your InfinityFree Account Details for the actual host
+$db_name = "ezyro_41760947_susbase";
+$db_user = "ezyro_41760947";
+$db_pass = "3cd84d674c0cf";
 
 $conn = new mysqli($db_host, $db_user, $db_pass, $db_name);
 if ($conn->connect_error) {
